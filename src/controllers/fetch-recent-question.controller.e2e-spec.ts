@@ -4,7 +4,6 @@ import { INestApplication } from "@nestjs/common";
 import { JwtService } from "@nestjs/jwt";
 import { Test } from "@nestjs/testing"
 import { hash } from "bcryptjs";
-import { title } from "process";
 import request from "supertest"
 
 describe('Fetch recent questions (E2E)', ()=>{
